@@ -1,0 +1,93 @@
+{
+  "themes": {
+        "inicio": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "metrics": "--dev-theme",
+            "intro": "--dev-theme",
+            "overview": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "testimonial": "--dev-theme",
+            "more": "--dev-theme",
+            "media": "--dev-theme",
+            "contact": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "actividades": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "intro": "--dev-theme",
+            "overview": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "testimonial": "--dev-theme",
+            "contact": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "nosotros": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "intro": "--dev-theme",
+            "overview": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "testimonial": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "noticias": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "posts": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "peregrinacion": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "overview": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "resources": "--dev-theme",
+            "contact": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "apariciones": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "intro": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "testimonial": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "bernadette": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "intro": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "testimonial": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "mensaje": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "intro": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "overview": "--dev-theme",
+            "testimonial": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "milagros": {
+            "nav": "--dev-theme",
+            "cover": "--dev-theme",
+            "intro": "--dev-theme",
+            "overview": "--dev-theme",
+            "highlightsDates": "--dev-theme",
+            "footer-nav": "--dev-theme",
+            "footer": "--dev-theme"
+        },
+        "404": {}
+    }
+}

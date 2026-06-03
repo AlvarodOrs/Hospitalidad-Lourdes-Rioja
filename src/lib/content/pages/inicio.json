@@ -1,0 +1,30 @@
+{
+    "nav": {
+        "section1": {"hasDropdown": false, "name": "Quiénes Somos","link": "/Nosotros"},
+        "section2": {"hasDropdown": true, "name": "Quiénes Somos","link": "/Nosotros"},
+        "section3": {"hasDropdown": false, "name": "Noticias","link": "/Noticias"},
+        "section4": {"hasDropdown": true, "name": "Quiénes Somos","link": "/Nosotros"},
+        "section5": {"hasDropdown": false, "name": "Contacto","link": "#contacto"}
+    },
+    "cover": {
+        "parentPage": "",
+        "separator": "",
+        "page": "",
+        "eyebrow": "",
+        "title": "",
+        "enfasis": "",
+        "paragraph": "",
+        "image": "",
+        "alt": ""
+
+    },
+    "intro": "",
+    "overview": "",
+    "highlightsDates": "",
+    "testimonial": "",
+    "more": "",
+    "media": "",
+    "contact": "",
+    "footer": ""
+}
+// "metrics": "",
