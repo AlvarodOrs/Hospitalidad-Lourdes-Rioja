@@ -1,0 +1,34 @@
+{
+  "slides": [
+    {
+      "image": "/media/images/Lourdes/Banner/Portada.jpg",
+      "caption": "First slide",
+      "order": 1
+    },
+    {
+      "image": "/media/images/Lourdes/Peregrinacion/Virgen/GrutaNoche.jpg",
+      "caption": "Second slide",
+      "order": 2
+    },
+    {
+      "image": "/media/images/Lourdes/Bonitas/Agua.jpg",
+      "caption": "Third slide",
+      "order": 3
+    },
+    {
+      "image": "/media/images/Lourdes/Bonitas/Velas.jpg",
+      "caption": "Fifth slide",
+      "order": 4
+    },
+    {
+      "image": "/media/images/Lourdes/Bonitas/Santuario.webp",
+      "caption": "Sixth slide",
+      "order": 5
+    },
+    {
+      "image": "/media/images/Lourdes/Peregrinacion/Virgen/Coronada.jpg",
+      "caption": "Seventh slide",
+      "order": 6
+    }
+  ]
+}

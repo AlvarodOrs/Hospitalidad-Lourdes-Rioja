@@ -1,0 +1,20 @@
+{
+  "cleanUrls": true,
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/", "destination": "/html/Inicio" },
+    { "source": "/Actividades", "destination": "/html/main/Actividades" },
+    { "source": "/Nosotros", "destination": "/html/main/Nosotros" },
+    { "source": "/Noticias", "destination": "/html/main/Noticias" },
+    { "source": "/Peregrinacion", "destination": "/html/main/Peregrinacion" },
+    { "source": "/historia/Apariciones", "destination": "/html/historia/Apariciones" },
+    { "source": "/historia/Bernadette", "destination": "/html/historia/Bernadette" },
+    { "source": "/historia/Mensaje", "destination": "/html/historia/Mensaje" },
+    { "source": "/historia/Milagros", "destination": "/html/historia/Milagros" },
+    { "source": "/legal/Privacidad", "destination": "/html/legal/Privacidad" }
+  ],
+  
+  "redirects": [
+    { "source": "/", "has": [{"type": "host", "value": "inscripcion.hospitalidadlourdesrioja.org"}],"destination": "https://docs.google.com/forms/d/e/1FAIpQLSezju8TagBff0dc4DJfi0H2LaZqrBuIpc22UTyke61fHJdbMg/viewform?usp=header", "permanent": true }
+  ]
+}

@@ -1,0 +1,165 @@
+/* ── SECTION THEMES ──
+ * Apply one of these classes to any <section> (or wrapper element)
+ * to set its background, base text colour, and the inherited tones
+ * for headings, body copy, and the gold accents used throughout.
+ *
+ * Usage:
+ *   <section class="section--dark-blue"> … </section>
+ *   <section class="section--light-blue"> … </section>
+ *   <section class="section--white"> … </section>
+ *   <section class="section--cream"> … </section>
+ */
+/* ── LOURDES BLUE THEME ──
+ * A vibrant yet sophisticated mid-tone theme that bridges 
+ * the gap between Dark Blue and White sections.
+ */
+.section--lourdes-blue {
+    background: var(--blue-lourdes);
+    /* Using a soft white for general text to maintain the "Lourdes" purity */
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Small header label */
+.section--lourdes-blue .section-tag { 
+    color: var(--gold-light); 
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Main Headings: Pure white for maximum pop */
+.section--lourdes-blue h2.section-title,
+.section--lourdes-blue h2,
+.section--lourdes-blue h3,
+.section--lourdes-blue .section-title { 
+    color: var(--white-color) !important; 
+}
+
+/* Flourish/Italic text: Using the gold accent to match the "Dark Blue" theme */
+.section--lourdes-blue h2.section-title em,
+.section--lourdes-blue .section-title em,
+.section--lourdes-blue h2 em { 
+    color: var(--gold-light) !important; 
+    font-style: italic;
+}
+
+/* Paragraphs: Slightly dialed back to keep visual hierarchy */
+.section--lourdes-blue p { 
+    color: rgba(255, 255, 255, 0.8); 
+    font-weight: 400;
+}
+
+/* Links and Lists: Fixed selector and refined color */
+.section--lourdes-blue ul li a { 
+    color: var(--white-color);
+    transition: opacity 0.2s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+.section--lourdes-blue ul li a:hover {
+    opacity: 0.7;
+}
+
+/* Cards inside a Lourdes section:
+ * Glassmorphism effect to keep it modern and "light"
+ */
+.section--lourdes-blue .activity-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.section--lourdes-blue .activity-card h3 { 
+    color: var(--white-color); 
+}
+
+.section--lourdes-blue .activity-card p { 
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+/* 1. Dark blue — deep navy, gold + white text */
+.section--dark-blue {
+    background: var(--blue-deep);
+    color: rgba(255, 255, 255, 0.75);
+}
+.section--dark-blue .section-tag               { color: var(--gold); }
+.section--dark-blue h2.section-title,
+.section--dark-blue h2,
+.section--dark-blue h3,
+.section--dark-blue .section-title             { color: var(--white-color) !important; }
+.section--dark-blue h2.section-title em,
+.section--dark-blue .section-title em,
+.section--dark-blue h2 em                      { color: var(--gold-light) !important; }
+.section--dark-blue p                           { color: rgba(255, 255, 255, 0.55); }
+ 
+/* 2. Light blue — mid/accent gradient, gold + white text */
+.section--light-blue {
+    background: linear-gradient(135deg, var(--blue-accent), var(--blue-mid));
+    color: rgba(255, 255, 255, 0.75);
+}
+.section--light-blue h2.section-title,
+.section--light-blue h2,
+.section--light-blue h3,
+.section--light-blue .section-title            { color: var(--white-color) !important; }
+.section--light-blue h2.section-title em,
+.section--light-blue .section-title em,
+.section--light-blue h2 em                     { color: var(--gold-light) !important; }
+.section--light-blue p                          { color: rgba(255, 255, 255, 0.6); }
+ 
+/* 3. White — pure white, dark text */
+.section--white {
+    background: var(--white-color);
+    color: var(--text-dark);
+}
+.section--white .section-title             { color: var(--text-dark); }
+.section--white .section-title em          { color: var(--blue-accent); }
+.section--white p                           { color: var(--text-mid); }
+.section--white h2,
+.section--white h3                          { color: var(--text-dark); }
+ 
+/* 4. Cream — warm off-white, dark text */
+.section--cream {
+    background: var(--cream-color);
+    color: var(--text-dark);
+}
+.section--cream .section-title             { color: var(--text-dark); }
+.section--cream .section-title em          { color: var(--blue-accent); }
+.section--cream p                           { color: var(--text-mid); }
+.section--cream h2,
+.section--cream h3                          { color: var(--text-dark); }
+ 
+/* Cream-dark variant (slightly deeper warm tone) */
+.section--cream-dark {
+    background: var(--cream-dark);
+    color: var(--text-dark);
+}
+.section--cream-dark .section-title        { color: var(--text-dark); }
+.section--cream-dark .section-title em     { color: var(--blue-accent); }
+.section--cream-dark p                      { color: var(--text-mid); }
+
+.section--white      .activity-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(184, 151, 90, 0.2);
+}
+.section--white      .activity-card h3 em { color: var(--gold-light); }
+/* On light sections, flip card colours */
+.section--cream      .activity-card,
+.section--cream-dark .activity-card {
+    background: var(--white-color);
+    border-color: var(--cream-dark);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
+}
+ 
+.section--cream      .activity-card h3,
+.section--cream-dark .activity-card h3,
+.section--white      .activity-card h3 { color: var(--text-dark); }
+ 
+.section--cream      .activity-card h3 em,
+.section--cream-dark .activity-card h3 em { color: var(--blue-accent); }
+ 
+.section--cream      .activity-card p,
+.section--cream-dark .activity-card p,
+.section--white      .activity-card p { color: rgba(255,255,255,0.55); }
